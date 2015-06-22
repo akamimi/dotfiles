@@ -1,0 +1,18 @@
+defbce on
+attrcolor b "^["
+term xterm-256color
+vbell off
+autodetach on
+shelltitle ""
+hardstatus alwayslastline "%-w%{= ck}%n %t%{-}%+w"
+
+# encoding
+encoding UTF-8 UTF-8
+defkanji UTF-8
+defencoding UTF-8
+
+# log
+deflog on
+logfile "$HOME/.screen/log/screen.%n.log"
+
+escape ^Oo

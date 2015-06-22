@@ -1,0 +1,21 @@
+[core]
+  editor = vim
+
+[user]
+  name = Saito Kenta
+  mail = saito_k@netprice.co.jp
+
+[push]
+  default = current
+
+[alias]
+  co = commit
+  st = status
+  br = branch
+  ch = checkout
+
+[diff]
+  tool = vimdiff
+
+[color]
+  ui = true
